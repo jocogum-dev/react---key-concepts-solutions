@@ -5,9 +5,11 @@ This repository is my collection of mini React projects from the **React - Key C
 ---
 
 ## 📁 Folder Structure
+```
 */
 ├── hello-jocogum/
 ├── log-goals/
+```
 
 ## 📚 Topics To Learn
 - [x] React Components and JSX
