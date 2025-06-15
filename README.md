@@ -13,7 +13,7 @@ This repository is my collection of mini React projects from the **React - Key C
 
 ## 📚 Topics To Learn
 - [x] React Components and JSX
-- [ ] Components and Props
+- [x] Components and Props
 - [ ] Events and State
 - [ ] Lists and Conditional Content
 - [ ] Styling
