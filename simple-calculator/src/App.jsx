@@ -1,4 +1,5 @@
 import Add from "./components/Add";
+import Calculator from "./components/Calculator";
 import Divide from "./components/Divide";
 import Multiply from "./components/Multiply";
 import Subtract from "./components/Subtract";
@@ -11,6 +12,8 @@ function App() {
       <Subtract />
       <Multiply />
       <Divide />
+      <hr />
+      <Calculator />
     </>
   )
 }
