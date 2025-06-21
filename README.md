@@ -10,13 +10,15 @@ This repository is my collection of mini React projects from the **React - Key C
 ├── hello-jocogum/
 ├── log-goals/
 ├── simple-calculator/
+├── conditional-error-message/
+├── list-of-products/
 ```
 
 ## 📚 Topics To Learn
 - [x] React Components and JSX
 - [x] Components and Props
 - [x] Events and State
-- [ ] Lists and Conditional Content
+- [x] Lists and Conditional Content
 - [ ] Styling
 - [ ] Portals and Refs
 - [ ] Handling Side Effects
