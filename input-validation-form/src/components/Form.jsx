@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import formStyle from "./form.module.css";
 
 export default function Form() {
     const [email, setEmail] = useState('');
@@ -32,12 +33,12 @@ export default function Form() {
 
   return (
     <>
-    <form action="/">
-        <label className={errorEmail ? "invalid" : ""} htmlFor="email">Your email</label>
-        <input className={errorEmail ? "invalid" : ""}  value={email}  onChange={handleEmail} type="text"/>
-        <label className={errorPassword ? "invalid" : ""} htmlFor="password">Your password</label>
-        <input className={errorPassword ? "invalid" : ""} value={password} onChange={handlePassword} type="text" />
-        <button onClick={handleSubmit} type='submit'>Submit</button>
+    <form className={formStyle.form} action="/">
+        <label className={`${formStyle.label} ${errorEmail ? formStyle.invalidLabel : ""}`} htmlFor="email">Your email</label>
+        <input className={`${formStyle.input} ${errorEmail ? formStyle.invalidInput : ""}`} value={email}  onChange={handleEmail} type="text"/>
+        <label className={`${formStyle.label} ${errorPassword ? formStyle.invalidLabel : ""}`} htmlFor="password">Your password</label>
+        <input className={`${formStyle.input} ${errorPassword ? formStyle.invalidInput : ""}`} value={password} onChange={handlePassword} type="text" />
+        <button className={formStyle.button} onClick={handleSubmit} type='submit'>Submit</button>
     </form>
     </>
   )

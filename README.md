@@ -12,6 +12,7 @@ This repository is my collection of mini React projects from the **React - Key C
 ├── simple-calculator/
 ├── conditional-error-message/
 ├── list-of-products/
+├── input-validation-form/
 ```
 
 ## 📚 Topics To Learn
@@ -19,7 +20,7 @@ This repository is my collection of mini React projects from the **React - Key C
 - [x] Components and Props
 - [x] Events and State
 - [x] Lists and Conditional Content
-- [ ] Styling
+- [x] Styling
 - [ ] Portals and Refs
 - [ ] Handling Side Effects
 - [ ] User Input & Forms
