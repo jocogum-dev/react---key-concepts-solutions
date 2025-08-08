@@ -15,6 +15,7 @@ This repository is my collection of mini React projects from the **React - Key C
 ├── input-validation-form/
 ├── form-ref/
 ├── side-drawer/
+├── basic-blogs/
 ```
 
 ## 📚 Topics To Learn
@@ -24,7 +25,7 @@ This repository is my collection of mini React projects from the **React - Key C
 - [x] Lists and Conditional Content
 - [x] Styling
 - [x] Portals and Refs
-- [ ] Handling Side Effects
+- [x] Handling Side Effects
 - [ ] User Input & Forms
 - [ ] Optimization
 - [ ] Complex State
