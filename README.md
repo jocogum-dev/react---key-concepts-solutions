@@ -16,6 +16,7 @@ This repository is my collection of mini React projects from the **React - Key C
 ├── form-ref/
 ├── side-drawer/
 ├── basic-blogs/
+├── feedback-form/
 ```
 
 ## 📚 Topics To Learn
@@ -26,7 +27,7 @@ This repository is my collection of mini React projects from the **React - Key C
 - [x] Styling
 - [x] Portals and Refs
 - [x] Handling Side Effects
-- [ ] User Input & Forms
+- [x] User Input & Forms
 - [ ] Optimization
 - [ ] Complex State
 - [ ] Custom React Hooks
